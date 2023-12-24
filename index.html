@@ -40,6 +40,7 @@
 		<h1 >All Projects</h1>
 		<ul>
             <li><a id="table" target="_blank">table</a></li>
+            <li><a id="book" target="_blank">book</a></li>
 		</ul>
 	</div>
 
@@ -50,6 +51,7 @@
 
 			// Now you can use baseURL to construct your links
 			var tablePageURL = baseURL + 'table/index.html';
+			var bookPageURL = baseURL + 'book/book.html';
 
 			// Get all <li> elements
 			var listItems = document.querySelectorAll('ul li');
@@ -63,6 +65,8 @@
 				switch (anchorElement.id) {
 						case 'table':
 						document.querySelector('#table').setAttribute('href', tablePageURL);
+						case 'book':
+						document.querySelector('#book').setAttribute('href', bookPageURL);
 				}
 			});
 		</script>

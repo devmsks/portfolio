@@ -163,7 +163,7 @@ h6 {
   width: 100px;
   height: 100px;
   object-fit: cover;
-  object-position: 50%;
+  object-position: top;
     border: 8px solid color-mix(in srgb, var(--default-color), transparent 85%);
 }
 
@@ -492,7 +492,7 @@ h6 {
   height: 300px;
   width: 300px;
   object-fit: cover;
-  object-position: 10%;
+  object-position: top;
 }
 
 .page-title .breadcrumbs ol li+li {
@@ -696,7 +696,16 @@ section,
 --------------------------------------------------------------*/
 .skill{
 
-  height: 40px;
+    /* height: 40px; */
+  display: flex;
+  width: 600px;
+    justify-content: space-between;
+
+}
+.skill ul li{
+  
+
+  font-size: 18px;
 }
 
 
